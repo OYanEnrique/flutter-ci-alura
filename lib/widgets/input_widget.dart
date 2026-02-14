@@ -17,8 +17,8 @@ class InputWidget extends StatelessWidget {
     this.hintText,
     this.labelText,
     this.focusNode,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
   @override
   Widget build(BuildContext context) {
     return Container(
